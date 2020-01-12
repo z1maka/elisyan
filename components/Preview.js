@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './utils/Button';
+import CanvasBG from './CanvasBG';
 
 const Preview = () => {
   const handleClick = () => {
@@ -8,6 +9,7 @@ const Preview = () => {
 
   return (
     <div className="preview">
+      <CanvasBG />
       <div className="preview-content">
         <h1 className="preview-content-name">ELYSIAN DEVELOPMENT</h1>
         <p className="preview-content-description">

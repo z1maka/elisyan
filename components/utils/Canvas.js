@@ -5,10 +5,10 @@ export default () => {
   let h = (canvas.height = window.innerHeight);
   const particles = [];
   const properties = {
-    bgColor: 'transparent',
+    bgColor: '#9ad0d5',
     particleColor: 'rgba(22, 181, 224, 1)',
     particleRds: 2,
-    count: 60,
+    count: 50,
     particleMaxSpeed: 2,
     lineLength: 250
   };
