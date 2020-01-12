@@ -1,0 +1,36 @@
+$white: #ffffff;
+
+// breakpoint
+$breakpoint-s: 320px;
+$breakpoint-xs: 480px;
+$breakpoint-sm: 768px;
+$breakpoint-md: 1024px;
+$breakpoint-lg: 1280px;
+$breakpoint-xl: 1440px;
+$breakpoint-xxl: 1920px;
+
+@mixin min($breakpoint) {
+  @media all and (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin flex-row-start {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@mixin flex-column-start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@mixin max($breakpoint) {
+  @media all and (max-width: $breakpoint) {
+    @content;
+  }
+}
