@@ -15,12 +15,11 @@
     border: none;
     outline: none;
     transition: all 300ms ease;
-    box-shadow: 0 0 8px #027280;
+    box-shadow: 6px 5px 21px -9px rgba(0, 0, 0, 0.75);
     background: linear-gradient(355.46deg, #bde7e6 -19.3%, #73bec4 41.37%);
     &:hover {
       transition: all 300ms ease;
-      transform: scale(1.1);
-      box-shadow: 0 0 30px #027280;
+      transform: scale(1.05);
     }
   }
 }

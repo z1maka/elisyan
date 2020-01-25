@@ -1,7 +1,7 @@
 import React from 'react';
 import App from 'next/app';
 import Helmet from 'react-helmet';
-import '../public/styles/home.scss';
+import '../styles/home.scss';
 
 class myApp extends App {
   render() {
